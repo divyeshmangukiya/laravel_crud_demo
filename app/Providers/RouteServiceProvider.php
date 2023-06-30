@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace App\Providers
 
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -15,9 +15,9 @@ class RouteServiceProvider extends ServiceProvider
      *
      * Typically, users are redirected here after authentication.
      *
-     * @var string
+     * @var string``
      */
-    public const HOME = '/home';
+    public const HOME = '/dashboard';
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.
